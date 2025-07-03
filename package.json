@@ -3,12 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Sidaq2908.github.io/naturopathy-app",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-time": "node -e \"console.log(new Date().toISOString())\" > build-time.txt",
-    "build": "node -e \"process.env.VITE_BUILD_TIME=new Date().toISOString(); require('vite').build();\""
+    "build": "node -e \"process.env.VITE_BUILD_TIME=new Date().toISOString(); require('vite').build();\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.10.0",
