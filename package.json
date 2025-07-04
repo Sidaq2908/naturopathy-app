@@ -8,8 +8,8 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-time": "node -e \"console.log(new Date().toISOString())\" > build-time.txt",
-    "build": "node -e \"process.env.VITE_BUILD_TIME=new Date().toISOString(); require('vite').build();\"",
+    "generate-time": "node generate-time.cjs",
+    "build": "npm run generate-time && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
