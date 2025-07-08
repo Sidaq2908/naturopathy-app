@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './i18n.js'
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter basename='/naturopathy-app/'>
+    <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/naturopathy-app/" : undefined}>
     <App />
     </BrowserRouter>
   
