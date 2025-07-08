@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-time": "node generate-time.cjs",
-    "build": "npm run generate-time && vite build",
+    "build": "npm run generate-time && cross-env NODE_ENV=production vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
