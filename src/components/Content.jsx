@@ -33,7 +33,7 @@ function Content() {
             {t("marquee2")}
            <IoMdStar className='star' />
           </Link>
-          <a className="marquee-link" href="public/Vacancy/second stage 09.05.2025.pdf"> 
+          <a className="marquee-link" href={`${import.meta.env.BASE_URL}Vacancy/second stage 09.05.2025.pdf`}> 
              {t("marquee3")}
             <IoMdStar className='star' />
           </a>
@@ -41,11 +41,11 @@ function Content() {
             {t("marquee4")}
              <IoMdStar className='star' />
           </Link>
-          <a className="marquee-link" href="public/Vacancy/Advertisement_.pdf"> 
+          <a className="marquee-link" href={`${import.meta.env.BASE_URL}Vacancy/Advertisement_.pdf`}> 
             {t("marquee5")}  
             <IoMdStar className='star' />
           </a>
-          <a className="marquee-link" href="public/Result/List_of_candidate_for_interview.pdf"> 
+          <a className="marquee-link" href={`${import.meta.env.BASE_URL}Result/List_of_candidate_for_interview.pdf`}> 
              {t("marquee6")} 
              <IoMdStar className='star' />
           </a>
@@ -62,11 +62,11 @@ function Content() {
            {t("marquee9")}  
             <IoMdStar className='star' />
           </Link>
-          <a className="marquee-link" href="public/Notice/Date_of_Pitching_for_the_Yogatech_Chlallenge_2024.pdf">
+          <a className="marquee-link" href="/Notice/Date_of_Pitching_for_the_Yogatech_Chlallenge_2024.pdf">
              {t("marquee10")}
              <IoMdStar className='star' />
           </a>
-          <a className="marquee-link" href="public/Result/Result_Yogatech_Challenge.pdf"> 
+          <a className="marquee-link" href="/Result/Result_Yogatech_Challenge.pdf"> 
              {t("marquee11")}
              <IoMdStar className='star' />
           </a>

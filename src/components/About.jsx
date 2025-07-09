@@ -2,7 +2,6 @@ import React from "react";
 import "./content.css";
 import img from "../images/naturopathy-logo.png";
 import Header from "./Header";
-import Footer from "./Footer";
 import Content from "./Content";
 import { useTranslation } from "react-i18next";
 import { Trans } from "react-i18next";
@@ -48,7 +47,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

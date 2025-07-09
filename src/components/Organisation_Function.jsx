@@ -85,7 +85,7 @@ const Organisation_Function = () => {
                 <td>1.1.4</td>
                 <td>Functions and Duties</td>
                 <td>
-                  <a href="/public/RTI-O_F/Function_duties.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Function_duties.pdf`}>
                     Click here to view
                   </a>
                 </td>
@@ -95,7 +95,7 @@ const Organisation_Function = () => {
                 <td>Organisation Chart</td>
                 <td>
                   Please click{" "}
-                  <a href="/public/RTI-O_F/OrganizationChart.pdf">here</a> to
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/OrganizationChart.pdf`}>here</a> to
                   view the chart
                 </td>
               </tr>
@@ -113,7 +113,7 @@ const Organisation_Function = () => {
                   </p>
                   <p>
                     2.{" "}
-                    <a href="/public/RTI-O_F/Director's List_1.jpg">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/Director's List_1.jpg`}>
                       List of Directors / HOD's
                     </a>
                   </p>
@@ -134,7 +134,7 @@ const Organisation_Function = () => {
                   judicial)
                 </td>
                 <td>
-                  <a href="/public/RTI-O_F/Function_duties.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Function_duties.pdf`}>
                     Click here to view
                   </a>
                 </td>
@@ -143,7 +143,7 @@ const Organisation_Function = () => {
                 <td>1.2.2</td>
                 <td>Power and Duties of other Employees</td>
                 <td>
-                  <a href="/public/RTI-O_F/Function_duties.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Function_duties.pdf`}>
                     Click here to view
                   </a>
                 </td>
@@ -200,7 +200,7 @@ const Organisation_Function = () => {
                 <td>
                   <p>Please click the following link for details:</p>
                   <p>
-                    <a href="/public/RTI-O_F/GFR2017.pdf">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/GFR2017.pdf`}>
                       General Financial Rules 2017
                     </a>
                   </p>
@@ -223,7 +223,7 @@ const Organisation_Function = () => {
                 <td>Channel of supervision and accountability</td>
                 <td>
                   Please click{" "}
-                  <a href="/public/RTI-O_F/OrganizationChart.pdf">here</a> to
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/OrganizationChart.pdf`}>here</a> to
                   view the Organisation Chart
                 </td>
               </tr>
@@ -237,7 +237,7 @@ const Organisation_Function = () => {
                 <td>1.4.1</td>
                 <td>Nature of functions/ services offered</td>
                 <td>
-                  <a href="/public/RTI-O_F/Bye_Laws_object.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Bye_Laws_object.pdf`}>
                     Plase click here to View
                   </a>
                 </td>
@@ -250,7 +250,7 @@ const Organisation_Function = () => {
                     Standard Operating Procedure (SOP) of Yoga and Naturopathy
                   </p>
                   <p>
-                    <a href="/public/RTI-O_F/SOP.pdf">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/SOP.pdf`}>
                       Please click here to view
                     </a>
                   </p>
@@ -280,7 +280,7 @@ const Organisation_Function = () => {
                     </a>
                   </p>
                   <p>
-                    <a href="/public/RTI-O_F/Sexual_Harassment.pdf">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/Sexual_Harassment.pdf`}>
                       Please click here to view the committee of sexual
                       harassment
                     </a>
@@ -298,7 +298,7 @@ const Organisation_Function = () => {
                 <td>1.5.1</td>
                 <td>Title and nature of the record/ manual /instruction</td>
                 <td>
-                  <a href="/public/RTI-O_F/Documents_Manuals.xlsx">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Documents_Manuals.xlsx`}>
                     Document Manual
                   </a>
                 </td>
@@ -309,7 +309,7 @@ const Organisation_Function = () => {
                   List of Rules, regulations, instructions manuals and records.
                 </td>
                 <td>
-                  <a href="/public/RTI-O_F/Documents_Manuals.xlsx">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Documents_Manuals.xlsx`}>
                     Document Manual
                   </a>
                 </td>
@@ -320,7 +320,7 @@ const Organisation_Function = () => {
                 <td>
                   <p>Please click the following link for details.</p>
                   <p>
-                    <a href="/public/RTI-O_F/Documents_Manuals.xlsx">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/Documents_Manuals.xlsx`}>
                       Document Manual
                     </a>
                   </p>
@@ -345,7 +345,7 @@ const Organisation_Function = () => {
                     Ayushin letter and sprit.
                   </p>
                   <p>
-                    <a href="/public/RTI-O_F/Rotational_Transfer_Policy.pdf">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/Rotational_Transfer_Policy.pdf`}>
                       Click here
                     </a>
                   </p>
@@ -362,7 +362,7 @@ const Organisation_Function = () => {
                 <td>1.6.1</td>
                 <td>Categories of documents</td>
                 <td>
-                  <a href="/public/RTI-O_F/Documents_Manuals.xlsx">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Documents_Manuals.xlsx`}>
                     Document Manual
                   </a>
                 </td>
@@ -371,7 +371,7 @@ const Organisation_Function = () => {
                 <td>1.6.2</td>
                 <td>Custodian of documents / categories</td>
                 <td>
-                  <a href="/public/RTI-O_F/Documents_Manuals.xlsx">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Documents_Manuals.xlsx`}>
                     Document Manual
                   </a>
                 </td>
@@ -388,15 +388,15 @@ const Organisation_Function = () => {
                 <td>Name of Boards, Council, Committee etc.</td>
                 <td>
                   <p>
-                    <a href="/public/RTI-O_F/GB_Committee.pdf">Member of GB</a>
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/GB_Committee.pdf`}>Member of GB</a>
                   </p>
                   <p>
-                    <a href="/public/RTI-O_F/SFC_Committee.pdf">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/SFC_Committee.pdf`}>
                       Member of SFC
                     </a>
                   </p>
                   <p>
-                    <a href="/public/RTI-O_F/SAC_Committee.pdf">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/SAC_Committee.pdf`}>
                       Member of SAC
                     </a>
                   </p>
@@ -442,15 +442,15 @@ const Organisation_Function = () => {
                 <td>
                   <p>
                     Minutes of the GB Meetings (
-                    <a href="/public/RTI-O_F/GB_Minutes.pdf">GB Meeting</a>)
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/GB_Minutes.pdf`}>GB Meeting</a>)
                   </p>
                   <p>
                     Minutes of the SAC Meetings (
-                    <a href="/public/RTI-O_F/SAC_Minutes.pdf">SAC Meeting</a>)
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/SAC_Minutes.pdf`}>SAC Meeting</a>)
                   </p>
                   <p>
                     Minutes of the IFC Meetings (
-                    <a href="/public/RTI-O_F/SFC_Minutes_46.pdf">IFC Meeting</a>)
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/SFC_Minutes_46.pdf`}>IFC Meeting</a>)
                   </p>
                 </td>
               </tr>
@@ -464,7 +464,7 @@ const Organisation_Function = () => {
                 <td>1.8.1</td>
                 <td>Name and designation</td>
                 <td>
-                  Please Click <a href="/public/RTI-O_F/Directory.pdf">here</a>{" "}
+                  Please Click <a href={`${import.meta.env.BASE_URL}RTI-O_F/Directory.pdf`}>here</a>{" "}
                   for the details
                 </td>
               </tr>
@@ -472,7 +472,7 @@ const Organisation_Function = () => {
                 <td>1.8.2</td>
                 <td>Telephone, fax and email</td>
                 <td>
-                  Please Click <a href="/public/RTI-O_F/Directory.pdf">here</a>{" "}
+                  Please Click <a href={`${import.meta.env.BASE_URL}RTI-O_F/Directory.pdf`}>here</a>{" "}
                   for the details
                 </td>
               </tr>
@@ -487,7 +487,7 @@ const Organisation_Function = () => {
                 <td>1.9.1</td>
                 <td>List of employees with Gross monthly remuneration</td>
                 <td>
-                  <a href="/public/RTI-O_F/monthly_remuneration.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/monthly_remuneration.pdf`}>
                     The Monthly Remuneration recieved by each officer and
                     employee
                   </a>
@@ -551,7 +551,7 @@ const Organisation_Function = () => {
                   official
                 </td>
                 <td>
-                  <a href="/public/RTI-O_F/Contact_Details_of_Officials_dealing_with_RTI.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Contact_Details_of_Officials_dealing_with_RTI.pdf`}>
                     Please click here for viewing the Contact Details of the
                     Officials dealing with RTI
                   </a>
@@ -589,7 +589,7 @@ const Organisation_Function = () => {
                 <td>1.12.1</td>
                 <td>Educational Programmes</td>
                 <td>
-                  <a href="/public/RTI-O_F/Transparency Audit and Training Workshop on RTI.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/Transparency Audit and Training Workshop on RTI.pdf`}>
                     Click here to get details
                   </a>
                 </td>
@@ -601,7 +601,7 @@ const Organisation_Function = () => {
                   programmes
                 </td>
                 <td>
-                  <a href="/public/RTI-O_F/education_Awareness_2025.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/education_Awareness_2025.pdf`}>
                     Click here to get the details
                   </a>
                 </td>
@@ -610,7 +610,7 @@ const Organisation_Function = () => {
                 <td>1.12.3</td>
                 <td>Training of CPIO/APIO</td>
                 <td>
-                  <a href="/public/RTI-O_F/education_Awareness_2025.pdf">
+                  <a href={`${import.meta.env.BASE_URL}RTI-O_F/education_Awareness_2025.pdf`}>
                     Click here to get details
                   </a>
                 </td>
@@ -651,7 +651,7 @@ const Organisation_Function = () => {
                     Ayushin letter and sprit.
                   </p>
                   <p>
-                    <a href="/public/RTI-O_F/Rotational_Transfer_Policy.pdf">
+                    <a href={`${import.meta.env.BASE_URL}RTI-O_F/Rotational_Transfer_Policy.pdf`}>
                       Click here
                     </a>
                   </p>

@@ -62,7 +62,7 @@ const InformationPres = () => {
             <tr>
                 <td>5.1.2</td>
                 <td>Details of third-party audit of voluntary disclosure (a) Dates of audit carried out (b) Report of the audit carried out</td>
-                <td><a href="/public/Information_Prescribed/Transparency_Audit_Report_2023_24.pdf">Transparency Audit Report 2023-24</a></td>
+                <td><a href={`${import.meta.env.BASE_URL}Information_Prescribed/Transparency_Audit_Report_2023_24.pdf`}>Transparency Audit Report 2023-24</a></td>
             </tr>
             <tr>
                 <td>5.1.3</td>
@@ -77,12 +77,12 @@ const InformationPres = () => {
             <tr>
                 <td>5.1.4</td>
                 <td>Consultancy committee of key stake holders for advice on Suo Moto Disclosure (a) Dates from which constituted, (b)Name and Designation of the officers</td>
-                <td><a href="/public/Information_Prescribed/comittee.pdf">Click here to view</a></td>
+                <td><a href={`${import.meta.env.BASE_URL}Information_Prescribed/comittee.pdf`}>Click here to view</a></td>
             </tr>
             <tr>
                 <td>5.1.5</td>
                 <td>Committee of PIOs/FAAs with rich experience in RTI to identify frequently sought information under RTI (a) Dates from which constituted, (b)Name and Designation of the Officers</td>
-                <td><a href="/public/Information_Prescribed/comittee.pdf">Click here to view</a></td>
+                <td><a href={`${import.meta.env.BASE_URL}Information_Prescribed/comittee.pdf`}>Click here to view</a></td>
             </tr>
         </tbody>
     </table>

@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 import { NavLink, Outlet } from "react-router-dom";
 import "./rti.css";
 import { useTranslation } from "react-i18next";
@@ -25,7 +24,6 @@ function RTI() {
           </div>
         </article>
       </div>
-      <Footer />
     </>
   );
 }

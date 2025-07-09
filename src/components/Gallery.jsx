@@ -29,7 +29,6 @@ import img26 from '../images/gallery-image26.jpg';
 import img27 from '../images/gallery-image27.jpg';
 import img28 from '../images/gallery-image28.jpg';
 import Header from './Header';
-import Footer from './Footer';
 import { useTranslation } from 'react-i18next';
 
 function Gallery() {
@@ -70,7 +69,6 @@ function Gallery() {
         <img src={img28} alt="-img" />
       </div>
     </div>
-      <Footer/>
     </>
   )
 }

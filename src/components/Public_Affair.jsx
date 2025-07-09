@@ -114,14 +114,14 @@ const Public_Affair = () => {
                     <td>3.4.1</td>
                     <td>Information manual / handbook available in electronic format</td>
                     <td>
-                        Annual Report: <a href="/public/Public_Affairs/Annual_Report_19_20.pdf">2019-20</a>, <a href="/public/Public_Affairs/Annual_Report_20_21.pdf">2020-21</a>, <a href="/public/Public_Affairs/Annual_Report_21_22.pdf">2021-22</a>, <a href="/public/Public_Affairs/Annual_Report_22_23.pdf">2022-23</a>, <a href="/public/Public_Affairs/Annual_Report_23_24.pdf">2023-24</a>
+                        Annual Report: <a href="/Public_Affairs/Annual_Report_19_20.pdf">2019-20</a>, <a href="/Public_Affairs/Annual_Report_20_21.pdf">2020-21</a>, <a href="/Public_Affairs/Annual_Report_21_22.pdf">2021-22</a>, <a href="/Public_Affairs/Annual_Report_22_23.pdf">2022-23</a>, <a href="/Public_Affairs/Annual_Report_23_24.pdf">2023-24</a>
                     </td>
                 </tr>
                 <tr>
                     <td>3.4.1</td>
                     <td>Information manual / handbook available in printed format</td>
                     <td>
-                        Annual Report: <a href="/public/Public_Affairs/Annual_Report_19_20.pdf">2019-20</a>, <a href="/public/Public_Affairs/Annual_Report_20_21.pdf">2020-21</a>, <a href="/public/Public_Affairs/Annual_Report_21_22.pdf">2021-22</a>, <a href="/public/Public_Affairs/Annual_Report_22_23.pdf">2022-23</a>, <a href="/public/Public_Affairs/Annual_Report_23_24.pdf">2023-24</a>
+                        Annual Report: <a href="/Public_Affairs/Annual_Report_19_20.pdf">2019-20</a>, <a href="/Public_Affairs/Annual_Report_20_21.pdf">2020-21</a>, <a href="/Public_Affairs/Annual_Report_21_22.pdf">2021-22</a>, <a href="/Public_Affairs/Annual_Report_22_23.pdf">2022-23</a>, <a href="/Public_Affairs/Annual_Report_23_24.pdf">2023-24</a>
                     </td>
                 </tr>
                 <tr>

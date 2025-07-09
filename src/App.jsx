@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect,useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import About from './components/About'
 import Home from './components/Home'
@@ -21,13 +21,37 @@ import InformationPres from './components/InformationPres'
 import InformationDis from './components/InformationDis'
 import Profile from './components/Profile'
 import Report from './components/Report'
+import Footer from './components/Footer'
+import axios from 'axios'
 
 const App = () => {
-   useEffect(()=>{
-        document.title="7th Naturopathy Day";
-   },[]);
+  const [visitorCount, setVisitorCount] = useState(null)
+
+  useEffect(() => {
+    document.title = "7th Naturopathy Day";
+
+    const counted = sessionStorage.getItem("hasCounted");
+
+    const fetchCount = async () => {
+      try {
+        const res = await axios.get("https://visitor-backend-wflw.onrender.com/");
+        setVisitorCount(res.data.count);
+
+        if (!counted) {
+          sessionStorage.setItem("hasCounted", "true");
+        }
+      } catch (error) {
+        console.error("Failed to fetch visitor count:", error);
+        setVisitorCount("Error");
+      }
+    };
+
+    fetchCount();
+  }, []);
+   
   return (
     <>
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -52,6 +76,7 @@ const App = () => {
         <Route path='/vacancy' element={<Vacancy />} />
         <Route path='/report' element={<Report/>} />
       </Routes>
+      <Footer visitorCount={visitorCount}/>
     </>
   )
 }

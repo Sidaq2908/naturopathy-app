@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 import { Trans } from "react-i18next";
 import axios from "axios";
 
-const Footer = () => {
+const Footer = ({visitorCount}) => {
   const [visible, setVisible] = useState(false);
 
   // Show button when user scrolls down
@@ -36,35 +36,6 @@ const Footer = () => {
 
   const {t} = useTranslation();
 
-  const [visitorCount, setVisitorCount] = useState(null);
-
-  useEffect(() => {
-    const controller = new AbortController(); // To handle stale requests
-    const counted = sessionStorage.getItem("hasCounted");
-
-    const fetchCount = async () => {
-      try {
-        const res = await axios.get("https://visitor-backend-wflw.onrender.com/", {
-          signal: controller.signal,
-        });
-
-        setVisitorCount(res.data.count);
-
-        if (!counted) {
-          sessionStorage.setItem("hasCounted", "true");
-        }
-      } catch (error) {
-        console.error("Failed to fetch visitor count:", error);
-        setVisitorCount("Error");
-      }
-    };
-
-    fetchCount();
-
-    return () => controller.abort(); // Clean up on unmount
-  }, []);
-
-  
  useEffect(() => {
   // Track scroll for back-to-top visibility
   const handleScroll = () => toggleVisibility();
@@ -75,6 +46,13 @@ const Footer = () => {
 }, []);
 
 const buildTime = import.meta.env.VITE_BUILD_TIME || 'Unknown';
+
+const countDisplay =
+    visitorCount === null
+      ? "Loading..."
+      : visitorCount === "Error"
+        ? "Error"
+        : visitorCount;
 
   return (
     <footer className="footer">
@@ -92,13 +70,9 @@ const buildTime = import.meta.env.VITE_BUILD_TIME || 'Unknown';
                 components={{ strong: <strong /> }}
               />
             </h6>
-            <p>{t("webcount")} :  <strong> {visitorCount === null
-             ? "Loading..."
-             : visitorCount === "Error"
-             ? "Error"
-             : visitorCount}</strong>
+            <p><b>{t("webcount")} :</b>  <strong> {countDisplay}</strong>
             </p>
-            <p>Last updated: {buildTime}</p>
+            <p><b>{t("lastupdated")}</b> {buildTime}</p>
           </Link>
           <form>
             <div className="newsletter">

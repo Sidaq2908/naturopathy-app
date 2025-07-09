@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './Header'
 import Content from './Content'
-import Footer from './Footer'
 import { GrDocumentPdf } from "react-icons/gr";
 import { useTranslation } from 'react-i18next';
 
@@ -9,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 function PMYoga() {
    const pdf_titles=[
     {
-       link:'public/Guidelines/Guidelines.pdf',
+       link:'Guidelines/Guidelines.pdf',
        title:`Guidelines of Prime Minister’s Award for Yoga 2025`,
        download:'Guidelines.pdf'
     }
@@ -19,7 +18,7 @@ function PMYoga() {
            <li className='list-group-item' key={index}>
              <h6 className='save'>
                <GrDocumentPdf size={30} />
-               <a href={item.link} target="_blank" rel="noopener noreferrer" download={item.download}>
+               <a href={`${import.meta.env.BASE_URL}${item.link}`} target="_blank" rel="noopener noreferrer" download={item.download}>
                  &nbsp;&nbsp;&nbsp;&nbsp;
                  {item.title}
                </a>
@@ -41,7 +40,6 @@ function PMYoga() {
           </ul>
         </div>
       </div>
-      <Footer />
     </>
   )
 }

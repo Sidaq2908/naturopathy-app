@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './Header'
 import Content from './Content'
-import Footer from './Footer'
+
 import { GrDocumentPdf } from "react-icons/gr";
 import { useTranslation } from 'react-i18next';
 
 function NaturopathyAct() {
   const pdf_titles=[
     {
-       link:'public/Naturapathy-Day/Selected_candidates_list.pdf',
+       link:'Naturapathy-Day/Selected_candidates_list.pdf',
        title:`Selected Candidates List for Oral Paper Presentation for 7th Naturopathy Day, 2024`,
        download:'Selected_candidates_list.pdf'
     }
@@ -18,7 +18,7 @@ function NaturopathyAct() {
            <li className='list-group-item' key={index}>
              <h6 className='save'>
                <GrDocumentPdf size={30} />
-               <a href={item.link} target="_blank" rel="noopener noreferrer" download={item.download}>
+               <a href={`${import.meta.env.BASE_URL}${item.link}`} target="_blank" rel="noopener noreferrer" download={item.download}>
                  &nbsp;&nbsp;&nbsp;&nbsp;
                  {item.title}
                </a>
@@ -41,7 +41,6 @@ function NaturopathyAct() {
           </ul>
         </div>
       </div>
-      <Footer />
     </>
   )
 }
