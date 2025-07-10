@@ -25,7 +25,7 @@ function Content() {
           onMouseLeave={handleResume} 
         >
           <IoMdStar className='star' />
-          <a className="marquee-link" href="/public/Notice/EOI.pdf">
+          <a className="marquee-link" href={`${import.meta.env.BASE_URL}Notice/EOI.pdf`}>
               {t("marquee1")}
             <IoMdStar className='star' />
           </a>
@@ -49,7 +49,7 @@ function Content() {
              {t("marquee6")} 
              <IoMdStar className='star' />
           </a>
-          <a className="marquee-link" href="/result"> 
+          <a className="marquee-link" href={`${import.meta.env.BASE_URL}result`}>
             {t("marquee7")}  
              <IoMdStar className='star' />
           </a>
@@ -62,11 +62,11 @@ function Content() {
            {t("marquee9")}  
             <IoMdStar className='star' />
           </Link>
-          <a className="marquee-link" href="/Notice/Date_of_Pitching_for_the_Yogatech_Chlallenge_2024.pdf">
+          <a className="marquee-link" href={`${import.meta.env.BASE_URL}Notice/Date_of_Pitching_for_the_Yogatech_Chlallenge_2024.pdf`}>
              {t("marquee10")}
              <IoMdStar className='star' />
           </a>
-          <a className="marquee-link" href="/Result/Result_Yogatech_Challenge.pdf"> 
+          <a className="marquee-link" href={`${import.meta.env.BASE_URL}Result/Result_Yogatech_Challenge.pdf`}> 
              {t("marquee11")}
              <IoMdStar className='star' />
           </a>

@@ -622,7 +622,7 @@ const Organisation_Function = () => {
                   concerned
                 </td>
                 <td>
-                  <Link href="/rti">
+                  <Link href={`${import.meta.env.BASE_URL}rti`}>
                     Please click here for viewing the Suo Moto Disclosure in the
                     Council Website
                   </Link>

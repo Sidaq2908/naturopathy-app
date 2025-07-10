@@ -61,7 +61,7 @@ function Tender() {
     <li className='list-group-item' key={index}>
         <h6 className='save'>
           <GrDocumentPdf size={35} />
-          <a href={`${import.meta.env.BASE_URL}${item.link}`} target="_blank" rel="noopener noreferrer">
+          <a href={`${import.meta.env.BASE_URL}${item.link}`} target="_blank" rel="noopener noreferrer" download={item.download}>
            &nbsp;&nbsp;&nbsp;&nbsp;
            {item.title}
           </a>

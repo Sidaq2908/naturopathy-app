@@ -19,8 +19,8 @@ function RTI() {
           <NavLink className="nav-link" to="information-disclosed-on-own-initiative">{t("rtinav6")}</NavLink>
         </nav>
         <article>
-          <div className="container">
-             <Outlet/>
+          <div className="responsive-table">
+            <Outlet/>
           </div>
         </article>
       </div>

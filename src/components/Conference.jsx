@@ -9,7 +9,7 @@ function Conference() {
       {
          link:'Schedule/Naturopathy_Day_2024_brochure(2).pdf',
          title:`Schedule for 2024`,
-         download:'Naturopathy_Day_2024_brochure.pdf'
+         download:'Naturopathy_Day_2024_brochure(2).pdf'
       }
      ];
      

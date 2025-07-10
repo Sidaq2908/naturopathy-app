@@ -85,7 +85,7 @@ const countDisplay =
                 className="form-control"
                 placeholder="Email address"
               />
-              <button className="btn btn-outline-success" type="button">
+              <button className="btn btn-outline-success" type="submit">
                 {t("footerbtn")}
               </button>
             </div>

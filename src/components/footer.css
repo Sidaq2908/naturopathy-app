@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 .footer {
-  padding: 5%;
   background-color: rgb(202, 215, 182);
   font-family: "Ancizar Sans","sans-serif";
 }
@@ -8,7 +7,7 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: space-between;
 }
 
@@ -63,8 +62,7 @@
   flex-direction: column;
   align-items: center;
   border-top: 1px solid #00000033;
-  padding-top: 2rem;
-  margin-top: 2rem;
+  padding-top: 1%;
 }
 
 .social-icons {

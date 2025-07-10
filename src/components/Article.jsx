@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import img from "../images/naturopathy-logo.png";
 import photo1 from "../images/PratapRao.jpg";
 import photo2 from "../images/RajeshKotecha.jpg";
-import photo3 from "../images/Raghavendra.jpg";
+import photo3 from "../images/Raghavendara.jpg";
 import { GiVideoConference } from "react-icons/gi";
 import { GrWorkshop } from "react-icons/gr";
 import { GiFlagObjective } from "react-icons/gi";
@@ -16,9 +16,9 @@ const Article = () => {
   return (
     <>
       <div className="images">
-        <img src={photo1} alt="" />
-        <img src={photo2} alt="" />
-        <img src={photo3} alt="" />
+        <img src={photo1} alt="pratap-rao-img" />
+        <img src={photo2} alt="rajesh-kotecha-img" />
+        <img src={photo3} alt="raghavendra-img" />
       </div>
       <div className="container">
         <div className="column">
