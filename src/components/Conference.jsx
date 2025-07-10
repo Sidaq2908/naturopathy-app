@@ -7,9 +7,9 @@ import { useTranslation } from 'react-i18next';
 function Conference() {
   const pdf_titles=[
       {
-         link:'Schedule/Naturopathy_Day_2024_brochure(2).pdf',
+         link:'Schedule/Naturopathy_Day_2024_brochure.pdf',
          title:`Schedule for 2024`,
-         download:'Naturopathy_Day_2024_brochure(2).pdf'
+         download:'Naturopathy_Day_2024_brochure.pdf'
       }
      ];
      

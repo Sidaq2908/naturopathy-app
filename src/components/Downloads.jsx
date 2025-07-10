@@ -7,9 +7,9 @@ import { useTranslation } from 'react-i18next';
 function Downloads() {
   const pdf_titles=[
     { 
-       link:'Downloads/Naturopathy_Day_2024_brochure(2).pdf',
+       link:'Downloads/Naturopathy_Day_2024_brochure.pdf',
        title:'Brochure Naturopathy Day, 2024',
-       download: 'Naturopathy_Day_2024_brochure(2).pdf'
+       download: 'Naturopathy_Day_2024_brochure.pdf'
     },
     {
        link:'Downloads/TA_form.pdf',
