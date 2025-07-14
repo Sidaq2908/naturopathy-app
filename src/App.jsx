@@ -23,12 +23,14 @@ import Profile from './components/Profile'
 import Report from './components/Report'
 import Footer from './components/Footer'
 import axios from 'axios'
+import { useTranslation } from 'react-i18next'
 
 const App = () => {
   const [visitorCount, setVisitorCount] = useState(null)
+  const {t,i18n}=useTranslation();
 
   useEffect(() => {
-    document.title = "7th Naturopathy Day";
+    document.title = t("title");
 
     const counted = sessionStorage.getItem("hasCounted");
 
@@ -47,7 +49,7 @@ const App = () => {
     };
 
     fetchCount();
-  }, []);
+  }, [t,i18n.language]);
    
   return (
     <>
